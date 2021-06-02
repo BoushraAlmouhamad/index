@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="icon" href="img10.png">
+
+   <style>  
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,cyrillic');
+
+/*--- GENERAL ---*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 100%;
+  line-height: 1.45;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.button {
+  width: 150px;
+  height: 25px;
+  margin: 5px 0 5px 0;
+  color: #fff;
+  background: rgba(71, 73, 77, 1);
+  border: none;
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: rgba(71, 73, 77, 0.8);
+}
+
+.button:active {
+  margin: 6px inherit 4px inherit;
+  background: rgba(71, 73, 77, 0.8);
+}
+
+/*--- /GENERAL ---*/
+
+#profile-edit-save {
+  box-sizing:border-box;
+  width:800px;
+  margin:0 auto;
+  padding:10px;
+  border-bottom:1px solid rgba(84,183,222,0.5);
+  background-color:rgba(84,183,222,0.3);
+}
+
+#editSave {
+  display:block;
+  margin: 0 auto;
+  border:none;
+  border-radius:5px;
+  padding:10px 20px;
+  background-color:#2699c7;
+  color:#fff;
+  font-size:14px;
+  outline: none;
+}
+
+#profile-edit-area {
+  width:800px;
+  margin: 0 auto;
+}
+
+#edit-area-left, #edit-area-right {
+  box-sizing:border-box;
+}
+
+#edit-area-left {
+  width:400px;
+  morgin:0;
+  float:left;
+}
+
+#edit-area-right {
+  width:400px;
+  margin-left:400px;
+}
+#profile-edit-area {
+  margin: 50px auto 10px;
+}
+
+#profile-edit-area table {
+  margin: 0 auto 10px;
+  vertical-align:top;
+}
+
+#profile-edit-area table tr {
+  vertical-align:top;
+}
+
+.edit-title {
+  padding-top:15px;
+}
+
+.profileInputBox {
+	width:200px;
+  	height:auto;
+  	margin:10px;
+  	padding:10px;
+  	border:none;
+  	border-radius:10px;
+  	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  	background-color:rgb(255, 255, 255);
+  	font-size:16px;
+  	color:rgb(63, 63, 63);
+  	outline: none;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <br><br><br>
+     <div id="profile-edit-save">
+    <h1 style="text-align: center; font-family:monospace;">Edit your profile<h1>
+      <a class="nav-link" href="index.html">
+        <span><i class="fas fa-long-arrow-alt-right"></i></span>
+       
+      </a>
+      </div>
+      <div id="profile-edit-area">
+        <form>
+        <div id="edit-area-left">
+            <table>
+              <tbody>
+                <tr>
+                  <td class="edit-title"> <i class="fas fa-edit"></i>Name</td>                
+                  <td><input type="text" class="profileInputBox"/></td>
+                </tr>
+                <br>
+                <tr>
+                  <td class="edit-title"> <i class="fas fa-envelope"></i>E-Mail</td>
+                  <td><input type="text" class="profileInputBox"/></td>
+                </tr>
+                <br>
+                <tr>
+                   
+                  <td class="edit-title "> <i class="fas fa-eye-slash"></i>Password</td>
+                  <td><input type="password" class="profileInputBox"/></td>
+                </tr>
+                
+              </tbody>
+            </table>
+        </div>
+        <div id="edit-area-right">
+          <table>
+              <tbody>
+                
+                <div class="card">
+                    <input type="image">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                        src="https://mdbootstrap.com/img/new/standard/city/047.jpg"
+                        class="img-fluid rounded-circle"
+                        alt=""
+                      />
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                 
+                  </div>
+              </tbody>
+            </table>
+        </div>
+      </form>
+      <br><br><br><br>
+      <input type="submit" style="transform: translateX(400px); background-color: cyan;">
+      </div>
+      
+</body>
+</html>
